@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "all": "npm-run-all -p sass tsc",
+    "all": "npm-run-all -p sass tsc browser-sync",
     "tsc": "tsc",
-    "sass": "sass ./scss/:./css/ --watch"
+    "sass": "sass ./scss/:./css/ --watch",
+    "browser-sync": "browser-sync start --config bs-config.js"
+
   },
   "keywords": [],
   "author": "",

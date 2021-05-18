@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -17,7 +18,7 @@
       #hover {
         max-width: 15rem;
         padding: 1rem;
-        transition: 1s;
+        transition: 1s; 
       }
       #hover:hover{
         max-width: 15rem;
@@ -30,7 +31,7 @@
       }
     </style>
   </head>
-  <body>
+  <body style="background-color: #EDEDED;">
     <!-- de header -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
       <div class="container-fluid">
@@ -44,15 +45,15 @@
               <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Menu
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="snacks.html">Snacks</a></li>
-                <li><a class="dropdown-item" href="dranken.html">Dranken</a></li>
+                <li><a class="dropdown-item" href="#snacks">Snacks</a></li>
+                <li><a class="dropdown-item" href="#dranken">Dranken</a></li>
               </ul>
             </li>
           </ul>
@@ -60,7 +61,7 @@
       </div>
     </nav>
     <!-- de carousel -->
-    <div class="container">
+    <div class="container" style="background-color: white;">
     <br>
     <div class="card rounded">
       <ul class="list-group list-group-flush">
@@ -95,13 +96,19 @@
     </div>
     <!-- de cards -->
     <br>
+    <div class="card rounded">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 600; font-size: 1.8rem; text-align: center;">CATEGORIEEN</li>
+      </ul>
+    </div>
+    <br>
       <div class="row">
         <div class="col-sm">
           <div class="card" style="padding: 10px;">
             <div class="card-body">
               <h5 class="card-title" style="text-align: center;" id="lettertype">Snacks</h5>
               <p class="card-text" style="text-align: center;" id="lettertype">Categorie</p>
-              <center><a href=""><img src="./img/Kroket.png" alt="kroket" id="hover"></a></center>
+              <center><a href="#snacks"><img src="./img/Kroket.png" alt="kroket" id="hover"></a></center>
             </div>
           </div>
         </div>
@@ -110,7 +117,7 @@
             <div class="card-body">
               <h5 class="card-title" style="text-align: center;" id="lettertype">Snacks</h5>
               <p class="card-text" style="text-align: center;" id="lettertype">Categorie</p>
-              <center><a href=""><img src="./img/hamburger.png" id="hover" alt="hamburger" style="padding-bottom: 4rem;"></a></center>
+              <center><a href="#snacks"><img src="./img/hamburger.png" id="hover" alt="hamburger" style="padding-bottom: 4rem;"></a></center>
             </div>
           </div>
         </div>
@@ -119,11 +126,221 @@
             <div class="card-body">
               <h5 class="card-title" style="text-align: center;" id="lettertype">Dranken</h5>
               <p class="card-text" style="text-align: center;" id="lettertype">categorie</p>
-              <center><a href=""><img src="./img/dranken.jpg" id="hover" alt="dranken"></a></center>
+              <center><a href="#dranken"><img src="./img/dranken.jpg" id="hover" alt="dranken"></a></center>
             </div>
           </div>
         </div>
     </div>
+<br>
+<div class="card rounded">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 600; font-size: 1.8rem; text-align: center;">SNACKS</li>
+  </ul>
+</div>
+<br>
+<div class="container" id="snacks">
+  <div class="row">
+      <div class="col-sm">
+        <div class="card" style="padding: 10px;">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">Friet</h5>
+            <p class="card-text" style="text-align: center;">€2,98</p>
+            <center><a href=""><img src="./img/product1.png" style="max-width: 10rem; max-height: 10rem;" alt="friet" id="hover"></a></center>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card" style="padding: 10px;">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">Kroket</h5>
+            <p class="card-text" style="text-align: center;">€2,89</p>
+            <center><a href=""><img src="./img/Kroket.png" id="hover" style="max-width: 10rem; max-height: 10rem;" alt="kroket"></a></center>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card" style="padding: 10px;">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">Loempia</h5>
+            <p class="card-text" style="text-align: center;">€2,89</p>
+            <center><a href=""><img src="./img/loempia.png" id="hover" style="max-width: 10rem; max-height: 10rem;" alt="loempia"></a></center>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<br>
+<div class="container">
+  <div class="row">
+      <div class="col-sm">
+        <div class="card" style="padding: 10px;">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">Hamburger</h5>
+            <p class="card-text" style="text-align: center;">€2,28</p>
+            <center><a href=""><img src="./img/hamburger.png" alt="hamburger" style="max-width: 10rem; max-height: 10rem;" id="hover"></a></center>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card" style="padding: 10px;">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">Bamischijf</h5>
+            <p class="card-text" style="text-align: center;">€1,70</p>
+            <center><a href=""><img src="./img/bamischijf.png" style="max-width: 10rem; max-height: 10rem;" id="hover" alt="bamischijf"></a></center>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm d-xl-block">
+        <div class="card" style="padding: 10px;">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">Frikandel</h5>
+            <p class="card-text" style="text-align: center;">€2,26</p>
+            <center><a href=""><img src="./img/frikandel.png" style="max-width: 10rem; max-height: 10rem;" id="hover" alt="frikandel"></a></center>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<br>
+<div class="card rounded">
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 600; font-size: 1.8rem; text-align: center;">DRANKEN</li>
+  </ul>
+</div>
+<br>
+<div class="container">
+  <div class="row">
+      <div class="col-sm">
+        <div class="card" style="padding: 10px;">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">Sinas</h5>
+            <p class="card-text" style="text-align: center;">€2,98</p>
+            <center><a href=""><img src="./img/fanta.jpg" style="max-width: 10rem; max-height: 10rem;" alt="sinas" id="hover"></a></center>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card" style="padding: 10px;">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">Cola</h5>
+            <p class="card-text" style="text-align: center;">€2,89</p>
+            <center><a href=""><img src="./img/cola.png" id="hover" style="max-width: 10rem; max-height: 10rem;" alt="cola" style="padding-bottom: 4rem;"></a></center>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card" style="padding: 10px;">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">Pepsi</h5>
+            <p class="card-text" style="text-align: center;">€2,89</p>
+            <center><a href=""><img src="./img/pepsi.png" id="hover" style="max-width: 10rem; max-height: 10rem;" alt="pepsi"></a></center>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+<br>
+<div class="container" id="dranken">
+<div class="row">
+  <div class="col-sm">
+    <div class="card" style="padding: 10px;">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: center;">Sprite</h5>
+        <p class="card-text" style="text-align: center;">€2,28</p>
+        <center><a href=""><img src="./img/sprite.png" alt="sprite" style="max-width: 10rem; max-height: 10rem;" id="hover"></a></center>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="card" style="padding: 10px;">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: center;">Limonade</h5>
+        <p class="card-text" style="text-align: center;">€1,70</p>
+        <center><a href=""><img src="./img/limonade.png" style="max-width: 10rem; max-height: 10rem;" id="hover" alt="limonade" style="padding-bottom: 4rem;"></a></center>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm">
+    <div class="card" style="padding: 10px;">
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: center;">Mysti</h5>
+        <p class="card-text" style="text-align: center;">€2,26</p>
+        <center><a href=""><img src="./img/mist..png" style="max-width: 10rem; max-height: 10rem;" id="hover" alt="Mist"></a></center>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<br>
+<div class="container">
+  <br>
+  <div class="card rounded">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 600; font-size: 1.8rem; text-align: center;">CONTACT</li>
+    </ul>
+  </div>
+  <!-- de cards -->
+  <br>
+  <div class="container">
+  <div class="row">
+      <div class="col-8"><div class="card">
+          <img src="./img/snackbar.png" style="max-height: 20.5rem;" class="card-img" alt="...">
+          <div class="card-img-overlay">
+          </div>
+        </div>
+      </div>
+      <div class="col-4"><div class="card">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">Openingstijden</h5>
+            <p class="card-text" style="text-align: center;">Maandag: Gesloten</p>
+            <p class="card-text" style="text-align: center;">Dinsdag: 08:00 - 21:00</p>
+            <p class="card-text" style="text-align: center;">Woensdag: 08:00 - 21:00</p>
+            <p class="card-text" style="text-align: center;">Donderdag: 12:00 - 00:00</p>
+            <p class="card-text" style="text-align: center;">Vrijdag: 08:00 - 21:00</p>
+            <p class="card-text" style="text-align: center;">Zaterdag: 12:00 - 20:00</p>
+            <p class="card-text" style="text-align: center;">Zondag: 08:00 - 20:00</p>
+          </div>
+        </div></div>
+    </div>
+  </div>
+<br>
+<div class="container" id="contact">
+  <div class="row">
+    <div class="col-sm">
+      <div class="card">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">Rotterdam</h5>
+            <p class="card-subtitle" style="text-align: center;">Vestiging</p>
+            <br>
+            <p class="card-text" style="text-align: center;">7392AP, Rotterdam</p>
+            <p class="card-text" style="text-align: center;">Rutterweg 29</p>
+          </div>
+        </div>
+    </div>
+    <div class="col-sm">
+      <div class="card">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">Amsterdam</h5>
+            <p class="card-subtitle" style="text-align: center;">Vestiging</p>
+            <br>
+            <p class="card-text" style="text-align: center;">7849AJ, Amsterdam</p>
+            <p class="card-text" style="text-align: center;">Hoofdstraat 43</p>
+          </div>
+        </div>
+    </div>
+    <div class="col-sm">
+      <div class="card">
+          <div class="card-body">
+            <h5 class="card-title" style="text-align: center;">Utrecht</h5>
+            <p class="card-subtitle" style="text-align: center;">Vestiging</p>
+            <br>
+            <p class="card-text" style="text-align: center;">2950ZQ, Utrecht</p>
+            <p class="card-text" style="text-align: center;">Dutlerlaan 9</p>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
 </div>
 <br>
   <!-- de footer van de pagina -->
